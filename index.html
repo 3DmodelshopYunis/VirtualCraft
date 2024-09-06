@@ -8,7 +8,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/js/loaders/GLTFLoader.js"></script>
     <body>
-    <script>
+   <script>
 const canvas = document.querySelector('#modelCanvas');
 const renderer = new THREE.WebGLRenderer({ canvas });
 
@@ -34,7 +34,8 @@ function animate() {
     requestAnimationFrame(animate);
     renderer.render(scene, camera);
 }
-</script>
+
+    </script>
 <img src="image.png" alt="VirtualCraft Logo" style="display:block; margin:auto; max-width:100%; height:auto;">
 </html>
 <canvas id="modelCanvas"></canvas>
